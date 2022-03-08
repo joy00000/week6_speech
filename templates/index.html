@@ -1,0 +1,12 @@
+<html>
+  <body>
+    <h1>Speech recognition</h1>
+    <form action = "http://127.0.0.1:5000/" enctype="multipart/form-data" method="post">
+      <p>Upload wav file:</p>
+      <p><input type="file" name="file"></p>
+      <p><input type="submit" value="Upload"></p>
+    </form>
+      <p>Text recognized is: </p>
+      {{result}}
+  </body>
+</html>
